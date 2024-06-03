@@ -17,7 +17,6 @@ import banner2 from "rollup-plugin-banner2";
 
 const NO_INLINE = new Set([
   "@babel/core",
-  "@babel/plugin-proposal-private-methods",
   "hermes-parser",
   "zod",
   "zod-validation-error",
